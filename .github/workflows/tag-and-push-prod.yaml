@@ -3,17 +3,17 @@ on:
     inputs:
       type:
         description: 'The type of release (patch, minor, major)'
-        required: true
+        required: false
         type: string
       semantic_version:
         description: 'The semantic version to release'
-        required: true
+        required: false
         type: string
       triggered_by:
         description: 'Who triggered the workflow'
-        required: true
+        required: false
         type: string
       environment:
         description: 'Target environment'
-        required: true
+        required: false
         type: string
